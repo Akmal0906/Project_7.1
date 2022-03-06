@@ -9,6 +9,10 @@ static final String id='home_page';
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: Text('hello world'),
+      ),
+    );
   }
 }
